@@ -1,0 +1,7 @@
+import pyModeS as pms
+
+msg_1 = '8D888124582F45AC603CA3E3BFEA'
+t1 = 1718880800.768154
+msg_2 = '8D888124582DC1E8F4D326C939F4'
+t2 = 1718880807.4420831
+print(pms.adsb.position(msg_1, msg_2, t1, t2))
